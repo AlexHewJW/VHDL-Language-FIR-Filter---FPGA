@@ -1,0 +1,309 @@
+# Reading C:/modeltech_10.1/tcl/vsim/pref.tcl 
+# //  ModelSim SE 10.1 Dec  5 2011 
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {tb_Mul.fdo} 
+# Model Technology ModelSim SE vcom 10.1 Compiler 2011.12 Dec  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mul_double
+# -- Compiling architecture mul_double_a of mul_double
+# -- Loading package std_logic_arith
+# -- Loading package floating_point_v5_0_consts
+# -- Loading package NUMERIC_STD
+# -- Loading package bip_utils_pkg_v2_0
+# -- Loading package floating_point_pkg_v5_0
+# -- Loading entity FLOATING_POINT_V5_0
+# Model Technology ModelSim SE vcom 10.1 Compiler 2011.12 Dec  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Mul
+# -- Compiling architecture Mul_arch of Mul
+# Model Technology ModelSim SE vcom 10.1 Compiler 2011.12 Dec  5 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_Mul
+# -- Compiling architecture behavior of tb_Mul
+# vsim -lib work -voptargs=\"+acc\" -t 1ps work.tb_Mul 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_mul(behavior)#1
+# Loading work.mul(mul_arch)#1
+# Loading ieee.std_logic_arith(body)
+# Loading xilinxcorelib.floating_point_v5_0_consts
+# Loading xilinxcorelib.bip_utils_pkg_v2_0(body)
+# Loading xilinxcorelib.floating_point_pkg_v5_0(body)
+# Loading work.mul_double(mul_double_a)#1
+# Loading xilinxcorelib.floating_point_v5_0(behavioral)#1
+# Loading xilinxcorelib.flt_pt_operator_v5_0(behavioral)#1
+# ** Warning: (vsim-8683) Uninitialized out port /tb_mul/uut/U1/U0/FP_OP/EXCEPTION has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+#  
+restart
+# ** Warning: (vsim-8683) Uninitialized out port /tb_mul/uut/U1/U0/FP_OP/EXCEPTION has no driver.
+# 
+# This port will contribute value (U) to the signal network.
+# 
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55 ns  Iteration: 1  Region: /tb_mul/uut/U1/U0/FP_OP/DELAY_N

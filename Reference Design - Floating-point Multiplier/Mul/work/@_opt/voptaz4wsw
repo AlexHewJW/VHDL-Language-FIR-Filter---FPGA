@@ -1,0 +1,129 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\DiskD\Teaching\VHDL\2018-2019\VHDL Project\Reference Design - Floating-point Multiplier\Mul
+T_opt
+VHU<1_7ddYcYEoR42_kgBn1
+04 6 8 work tb_mul behavior 1
+=1-6c0b846578a7-5b9a7e6d-e2-5ec
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OE;O;10.1;51
+Emul
+Z1 w1536851473
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dD:\DiskD\Teaching\VHDL\2018-2019\VHDL Project\Reference Design - Floating-point Multiplier\Mul
+Z6 8Multiplier.vhd
+Z7 FMultiplier.vhd
+l0
+L9
+Vl]0m@G?zBHC1nnCXXc=j>1
+Z8 OE;C;10.1;51
+31
+Z9 !s108 1536851564.148000
+Z10 !s90 -reportprogress|300|-explicit|-93|Multiplier.vhd|
+Z11 !s107 Multiplier.vhd|
+Z12 o-explicit -93
+Z13 tExplicit 1
+!s100 >F5o5;4BnKQDa=`^fnUj^1
+!i10b 1
+Amul_arch
+R2
+R3
+R4
+DEx4 work 3 mul 0 22 l]0m@G?zBHC1nnCXXc=j>1
+l34
+L18
+V`B`fj77TC_0kz@g8EYmYS3
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 <><B]VCZelPZERhBme<R_0
+!i10b 1
+Emul_double
+Z14 w1536851527
+R3
+R4
+R5
+Z15 8ipcore_dir/mul_double.vhd
+Z16 Fipcore_dir/mul_double.vhd
+l0
+L43
+VFZbk_N3;T^:YaO6C`a@hJ1
+R8
+31
+Z17 !s108 1536851563.758000
+Z18 !s90 -reportprogress|300|-explicit|-93|ipcore_dir/mul_double.vhd|
+Z19 !s107 ipcore_dir/mul_double.vhd|
+R12
+R13
+!s100 >;KZ]@[Nj:`W<>Y>2EaJ[1
+!i10b 1
+Amul_double_a
+Z20 DPx13 xilinxcorelib 18 bip_utils_pkg_v2_0 0 22 ;W7O@G:TIX<f2OW>SGOY]2
+R2
+Z21 DPx13 xilinxcorelib 23 floating_point_pkg_v5_0 0 22 3WAT?f2:B_V^NIB?a@ijc0
+Z22 DPx13 xilinxcorelib 26 floating_point_v5_0_consts 0 22 1f[2WP:ReOagFV^CO91L:2
+Z23 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+DEx13 xilinxcorelib 19 floating_point_v5_0 0 22 ?AKI5I>9`85_Z<LS=NO`N0
+R3
+R4
+DEx4 work 10 mul_double 0 22 FZbk_N3;T^:YaO6C`a@hJ1
+l111
+L52
+V6=8:RF[X1GL6Pe7V<d[dg3
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 _FLkj[T_>zoTOE4_LzPTG3
+!i10b 1
+Etb_mul
+Z24 w1536851481
+R2
+Z25 DPx4 ieee 16 std_logic_textio 0 22 ?Il0a149GV276[?[UMDWh2
+R3
+R4
+R5
+Z26 8tb_Multiplier.vhd
+Z27 Ftb_Multiplier.vhd
+l0
+L10
+VI0fU]4CQO2Nj6ZN:a;i_G3
+R8
+31
+Z28 !s108 1536851564.429000
+Z29 !s90 -reportprogress|300|-explicit|-93|tb_Multiplier.vhd|
+Z30 !s107 tb_Multiplier.vhd|
+R12
+R13
+!s100 47Ln=<TZhbLUONnYSz1d83
+!i10b 1
+Abehavior
+R2
+R25
+R3
+R4
+DEx4 work 6 tb_mul 0 22 I0fU]4CQO2Nj6ZN:a;i_G3
+l30
+L13
+VKhginj]PZBI;a?M03W26C1
+R8
+31
+R28
+R29
+R30
+R12
+R13
+!s100 H;R^0jcOV47^A0H>Ta[>B3
+!i10b 1
